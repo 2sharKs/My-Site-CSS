@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    text-align: center;
+}
+
+.top-container {
+    background-color: rgb(92, 207, 154);
+    position: relative;
+    padding-top: 100px;
+    height: 46rem;
+    
+}
+
+h1{
+    margin-top: 60px;
+    font-size: 80px;
+    font-family:'Yellowtail', cursive;
+}
+
+p{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+hr{
+    height: 0px;
+    border-style: dotted none dotted;
+    width: 5rem;
+    border-width: 1rem;
+    border-top-color: darkslateblue;
+    border-bottom-color: rgb(205, 142, 221);
+}
+
+hr:hover{
+    border-bottom-color: darkslateblue;
+    border-top-color: rgb(205, 142, 221);
+    transition: 300ms;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: lighter;
+    font-family: 'Yellowtail', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: lighter;
+    font-family: 'Yellowtail';
+    color: rgb(46, 43, 201);
+}
+
+h2,a{
+    color: darkslateblue;
+}
+
+.middle-container, .bottom-container {
+    
+}
+
+.middle-container{
+    background-color: #38A3A5;
+    padding-bottom: 1rem;
+}
+.bottom-container{
+    background-color:#22577A;
+    padding: 5rem 0 4rem 0;
+}
+
+
+.dp{
+    margin-top: 3em ;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 8rem;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.hobby-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: firebrick;
+    text-align: left;
+    font-size: 2.2rem;
+}
+
+
+.cloud-img {
+    width: 150px;
+}
+
+.mountain-img{
+    margin: 100px auto 0 auto;
+    position: absolute;
+    bottom: 0;
+    right: 400px;
+}
+
+.upcloud, .downcloud {
+    position: absolute;
+}
+
+.upcloud{
+    right: 500px;
+}
+
+.downcloud{
+    right: 1050px;
+}
+
+.cycling, .drawing{
+    width: 30%;
+    
+
+}
+
+.drawing{
+    float: left;
+    margin: 0 30px 10px 0;
+}
+
+.cycling{
+    float: right;
+    margin-left: 0 0 10px 30px;
+}
+
+
+.btn,.footer-link{
+    background-color: green;
+    color: white;
+    font-family: fantasy;
+    font-weight: lighter;
+    margin: 5rem 20px ;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5%;
+    transition: 500ms;
+}
+.btn:hover,.footer-link:hover{
+    background-color: lawngreen;
+    color: green;
+}
+
+.footer-link{
+    margin: 5rem 20px 0;
+}
+
+.copyright{
+    font-size: 1.2rem;
+    font-family: fantasy;
+    margin: 4rem auto 0 auto;
+    color: floralwhite;
+
+}
+
+.contact-me{
+    padding-bottom: 4rem;
+}
